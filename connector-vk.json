@@ -1,0 +1,22 @@
+{
+    "messaging-service": {
+        "url": "http://test-lime-api.g01.i-dgtl.ru/messaging",
+        "timeout": { "connect": "60000", "request": "60000" }
+    },
+        "vk-connector":{
+                "enabled":true,
+                "url":"https://apinotify.mail.ru/",
+                "secret":"345GGgethry1038lVgffs",
+                "service":"idgtl_test",
+                "application":"idgtl",
+                "requestTimeout":10000,
+                "errorCode":255,
+                "nodes":[
+                        {
+                        "nodeId":169,
+                        "nodePass":"Phe8teva"
+                        }
+                ]
+        }
+}
+
